@@ -10,7 +10,7 @@
 
 body {
     /* font-family: 'Arial', sans-serif; */
-    font-family: 'Lato', sans-serif;
+    font-family: 'Lato', 'Arial', sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f8f9fa;
@@ -48,8 +48,10 @@ section {
 }
 
 h2 {
-    color: #343a40;
+    color: #3E6056;
     text-decoration: underline;
+    font-style: normal;
+    font-family: "Arial";
 }
 
 ul {
@@ -104,6 +106,10 @@ y {
     font-weight: 800;
 }
 
+y-b {
+    font-weight: 500;
+}
+
 
 .skill-box {
     background-color: #3E6056;
@@ -112,5 +118,6 @@ y {
     border-radius: 2px;
     border: 2px solid #449399;
     display: inline-block;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
+    font-size: 12px;
 }
