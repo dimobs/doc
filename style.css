@@ -37,6 +37,7 @@ main {
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 10px;
     padding: 10px;
+    line-height: normal;
 }
 
 section {
@@ -52,15 +53,17 @@ h2 {
     text-decoration: underline;
     font-style: normal;
     font-family: "Arial";
+    margin: 7px 0 7px 0;
 }
 
 ul {
     list-style: none;
     padding: 0;
+    margin: 5px 0;
 }
 
 li {
-    margin-bottom: 10px;
+    margin-bottom: 3px;
 }
 li:nth-child(4) {
     display: grid;
@@ -121,3 +124,60 @@ y-b {
     margin-bottom: 10px;
     font-size: 12px;
 }
+
+.about {
+    line-height: 15px;
+    margin: 0;
+    padding: 5px 10px;
+}
+
+p {
+    margin-top: 0;
+}
+
+/* 
+
+.achievement {
+font-size: 16px;
+}
+
+.achievement a {
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    }
+
+    .last__section {
+        padding: 0;
+    }
+
+    .achievement__ul {
+        margin-bottom: 0;
+    }
+
+    .achievement__ul li:last-child {
+        margin-bottom: 0;
+    }
+    .achievement__h {
+        font-size: 18px;
+    } */
+
+    .interest__header {
+        /* padding-top: 0; */
+        /* display: inline; */
+        /* margin: 0; */
+        /* font-size: 18px; */
+        
+        }
+
+        .interest {
+            display: inline-block;
+        }
+
+        .lg {
+            margin-bottom: 4px;
+        }
+
+        .last_p {
+            margin: 0;
+        }
