@@ -1,7 +1,5 @@
 I also encourage you to take a look at my resume
 
-
-
 # My Resume
 
 Welcome to my GitHub repository! This is where I showcase my resume.

@@ -135,49 +135,14 @@ p {
     margin-top: 0;
 }
 
-/* 
-
-.achievement {
-font-size: 16px;
+.interest {
+    display: inline-block;
 }
 
-.achievement a {
-    font-size: 12px;
+.lg {
+    margin-bottom: 4px;
+}
+
+.last_p {
     margin: 0;
-    padding: 0;
-    }
-
-    .last__section {
-        padding: 0;
-    }
-
-    .achievement__ul {
-        margin-bottom: 0;
-    }
-
-    .achievement__ul li:last-child {
-        margin-bottom: 0;
-    }
-    .achievement__h {
-        font-size: 18px;
-    } */
-
-    .interest__header {
-        /* padding-top: 0; */
-        /* display: inline; */
-        /* margin: 0; */
-        /* font-size: 18px; */
-        
-        }
-
-        .interest {
-            display: inline-block;
-        }
-
-        .lg {
-            margin-bottom: 4px;
-        }
-
-        .last_p {
-            margin: 0;
-        }
+}
