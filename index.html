@@ -1,10 +1,160 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
+    
+    <!-- <link rel="stylesheet" href="./style.css"> -->
     <title>DK_resume</title>
+    @import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap');
+
+:root {
+    --green-color: #4caf50;
+    --green-color-hover: #45a049;
+--green-dark: #3c763d;
+--header: #3E6056;
+--links: #449399
+}
+
+body {
+    /* font-family: 'Arial', sans-serif; */
+    font-family: 'Lato', 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+header {
+    display: flex;
+    text-align: center;
+    padding: 20px;
+    background-color: #343a40;
+    color: #ffffff;
+    justify-content: space-around;
+}
+
+img {
+    max-width: 20%;
+    border-radius: 50%;
+    
+}
+
+main {
+    display: grid;
+    /* grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); */
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    padding: 10px;
+    line-height: normal;
+}
+
+section {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 5px;
+    margin: 0;
+}
+
+h2 {
+    color: #3E6056;
+    text-decoration: underline;
+    font-style: normal;
+    font-family: "Arial";
+    margin: 7px 0 7px 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 5px 0;
+}
+
+li {
+    margin-bottom: 3px;
+}
+li:nth-child(4) {
+    display: grid;
+}
+
+a {
+    text-decoration: none;
+    color: #449399;
+    font-size: smaller;
+}
+
+.achievement {
+    color: #3E6056;
+}
+
+@media only screen and (max-width: 768px) {
+    main {
+        grid-template-columns: 1fr;
+    }
+}
+
+.it__language {
+    display: block;
+    color: #80ada0;
+    font-size: 30px;
+}
+
+.it__language:nth-child(3) {
+    font-size: 20.5px;
+}
+
+h1 {
+    display: block;
+}
+
+@media print {
+    body {
+        background-color: #f8f9fa !important;
+    }
+}
+
+y {
+    font-weight: 800;
+}
+
+y-b {
+    font-weight: 500;
+}
+
+
+.skill-box {
+    background-color: #3E6056;
+      color: #ffffff;
+    padding: 4px;
+    border-radius: 2px;
+    border: 2px solid #449399;
+    display: inline-block;
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+
+.about {
+    line-height: 15px;
+    margin: 0;
+    padding: 5px 10px;
+}
+
+p {
+    margin-top: 0;
+}
+
+.interest {
+    display: inline-block;
+}
+
+.lg {
+    margin-bottom: 4px;
+}
+
+.last_p {
+    margin: 0;
+}
+</style>
 </head>
 <body>
          <header>
@@ -153,6 +303,8 @@
     
         </main>
     
-    
+        <footer>
+            <p>Portfolio URL: <a href="https://yourportfolio.com" target="_blank">https://yourportfolio.com</a></p>
+        </footer>
 </body>
 </html>
