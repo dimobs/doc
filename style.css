@@ -66,7 +66,9 @@ li {
     margin-bottom: 3px;
 }
 li:nth-child(4) {
-    display: grid;
+    /* display: grid; */
+    font-size: 20px;
+    /* color: red; */
 }
 
 a {
@@ -107,6 +109,7 @@ h1 {
 
 y {
     font-weight: 800;
+    margin-bottom: 0;
 }
 
 y-b {
@@ -118,8 +121,8 @@ y-b {
     background-color: #3E6056;
       color: #ffffff;
     padding: 4px;
-    border-radius: 2px;
-    border: 2px solid #449399;
+    border-radius: 3px;
+    border: 1.5px solid #449399;
     display: inline-block;
     margin-bottom: 10px;
     font-size: 12px;
@@ -132,6 +135,8 @@ y-b {
 }
 
 p {
+    margin-top: 0;
+    margin: 10px;
     margin-top: 0;
 }
 
@@ -146,3 +151,35 @@ p {
 .last_p {
     margin: 0;
 }
+
+.icon {
+    /* color: white;  */
+    /* background-color: #3E6056 ; */
+    /* margin-right: 5px; */
+    padding: 7px;
+    /* background-color: red; */
+    /* font-size: 20px; */
+}
+
+.fa-home {
+    /* color: red; */
+    font-size: 95px;
+}
+
+.fa-recycle {
+    color: #3c763d;
+    /* background-color: #45a049; */
+     margin-bottom: 10px;
+     /* position: relative; */
+}
+
+.save {
+    color: #3c763d;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: -20px;
+    left: 40px;
+}
+
