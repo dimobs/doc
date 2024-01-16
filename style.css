@@ -183,3 +183,10 @@ p {
     left: 40px;
 }
 
+.svg {
+    font-size: 1px;
+}
+
+embed {
+margin: 0px 10px;
+}
