@@ -217,4 +217,10 @@ margin: 0px 10px;
         justify-content: center; */
 
     }
+
+    img {
+    max-width: 50%;
+   border-radius: 5%;
+}
+
 }
