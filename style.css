@@ -23,15 +23,15 @@ header {
     background-color: #343a40;
     color: #ffffff;
     justify-content: space-around;
-    box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.5),
-    inset 5px 5px 20px rgba(255, 255, 255, 0.2),
+    box-shadow: inset 5px 5px 10px rgba(238, 233, 233, 0.5),
+    inset 5px 5px 20px rgba(239, 234, 234, 0.2),
     inset -5px -5px 15px rgba(0, 0, 0, 0.75);
 }
 
 img {
     max-width: 20%;
     border-radius: 50%;
-    
+    /* -webkit-box-reflect: right 0 linear-gradient(to right, #0000, #0009) */
 }
 
 main {
