@@ -35,7 +35,7 @@ header {
 img {
     max-width: 20%;
     border-radius: 50%;
-    /* -webkit-box-reflect: right 0 linear-gradient(to right, #0000, #0009) */
+    /* -webkit-box-reflect: left 0 linear-gradient(to right, #0000, #0009) */
 
 }
 
@@ -231,5 +231,22 @@ h2 {
     justify-content: center;
 }
 
+.fa-recycle {
+    /* position: absolute;
+   /* top: -90px; */
+     /* margin-bottom: 10px;  */
+     /* position: relative; */
+     padding: 0px;
+     margin: 0;
+     margin-right: 10px;
+}
 
+li {
+    display: flex;
+    align-items: center;
+}
+
+.save {
+    display: none;
+}
 }
