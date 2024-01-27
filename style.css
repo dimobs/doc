@@ -7,13 +7,17 @@
 --header: #3E6056;
 --links: #449399
 }
+* {
+    overflow-x: hidden;
 
+}
 body {
     /* font-family: 'Arial', sans-serif; */
     font-family: 'Lato', 'Arial', sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f8f9fa;
+
 }
 
 header {
@@ -32,6 +36,7 @@ img {
     max-width: 20%;
     border-radius: 50%;
     /* -webkit-box-reflect: right 0 linear-gradient(to right, #0000, #0009) */
+
 }
 
 main {
@@ -199,4 +204,17 @@ margin: 0px 10px;
     justify-content: center;
     place-items: center;
     align-items: center;
+}
+
+@media only screen and (max-width: 768px) {
+    header {
+        /* position: absolute; */
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        /* flex-direction: row;
+        justify-content: center; */
+
+    }
 }
