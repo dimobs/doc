@@ -72,11 +72,8 @@ ul {
 
 li {
     margin-bottom: 3px;
-}
-li:nth-child(4) {
-    /* display: grid; */
-    font-size: 20px;
-    /* color: red; */
+    display: flex;
+    align-items: center;
 }
 
 a {
@@ -176,9 +173,7 @@ p {
 
 .fa-recycle {
     color: #3c763d;
-    /* background-color: #45a049; */
-     margin-bottom: 16px;
-     /* position: relative; */
+     margin: 3px;
 }
 
 .save {
@@ -238,13 +233,10 @@ h2 {
      /* position: relative; */
      padding: 0px;
      margin: 0;
-     margin-right: 10px;
+     margin: 7px 10px;
 }
 
-li {
-    display: flex;
-    align-items: center;
-}
+
 
 .save {
     display: none;
