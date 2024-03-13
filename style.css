@@ -35,9 +35,21 @@ header {
 img {
     max-width: 20%;
     border-radius: 50%;
+    /* box-shadow: 15px 0 0 0 #c6c3c3; */
+    box-shadow: 15px 0 0 0 #80ada0;
     /* -webkit-box-reflect: left 0 linear-gradient(to right, #0000, #0009) */
-
 }
+/* 
+img::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 60px;
+    height: 600px;
+    background: red;
+    z-index: 2;
+} */
 
 main {
     display: grid;
@@ -51,17 +63,47 @@ main {
 section {
     background-color: #ffffff;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 5px;
     margin: 0;
+    box-shadow: inset -15px 3px 30px rgba(0, 0, 0, 0.1), inset -5px -5px 20px #fff;
 }
 
 h2 {
     color: #3E6056;
-    text-decoration: underline;
+    /* text-decoration: underline; */
+    text-align: center;
     font-style: normal;
     font-family: "Arial";
     margin: 7px 0 7px 0;
+}
+
+h3, h4, h5 {
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+h3 {
+    font-weight: 100;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h4 {
+    font-weight: 300;
+    letter-spacing: 0.04em;
+}
+
+h5 {
+    color: #3c763d;
+}
+.prog__lg{
+    font-weight: 900;
+    color: #3c763d;  
+}
+.data__info {
+    margin: 8px;
+    color: #3c763d;
+    font-weight: 900;
 }
 
 ul {
@@ -112,10 +154,6 @@ h1 {
     }
 }
 
-y {
-    font-weight: 800;
-    margin-bottom: 0;
-}
 
 y-b {
     font-weight: 500;
@@ -131,6 +169,11 @@ y-b {
     display: inline-block;
     margin-bottom: 5px;
     font-size: 12px;
+    box-shadow: inset 1px 1px 1px rgba(6, 81, 0, 0.1), inset -1px -1px 1px #052e02;
+}
+.skill-box:hover {
+    box-shadow: none;
+    transform: scaleX(10px);
 }
 
 .about {
@@ -240,3 +283,8 @@ h2 {
     display: none;
 }
 }
+
+.fa-recycle {
+    scrollbar-width: none;
+}
+
