@@ -65,7 +65,7 @@ section {
     border-radius: 8px;
     padding: 5px;
     margin: 0;
-    box-shadow: inset -15px 3px 30px rgba(0, 0, 0, 0.1), inset -5px -5px 20px #fff;
+    box-shadow: inset -15px 3px 30px rgba(0, 0, 0, 0.2), inset -5px -5px 20px #fff;
 }
 
 h2 {
@@ -93,6 +93,11 @@ h4 {
     margin: 3px;
     font-weight: 300;
     letter-spacing: 0.04em;
+}
+
+h4:nth-child(2) {
+font-weight: 900;
+letter-spacing: 0.11em;
 }
 
 h5 {
