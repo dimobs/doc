@@ -295,3 +295,7 @@ h2 {
     scrollbar-width: none;
 }
 
+.certificates:hover {
+    font-weight: 900;
+    text-decoration:underline;
+}
