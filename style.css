@@ -36,20 +36,9 @@ img {
     max-width: 20%;
     border-radius: 50%;
     /* box-shadow: 15px 0 0 0 #c6c3c3; */
-    box-shadow: 15px 0 0 0 #3E6056;
+    box-shadow: 10px 5px 5px 5px #3E6056;
     /* -webkit-box-reflect: left 0 linear-gradient(to right, #0000, #0009) */
 }
-/* 
-img::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 60px;
-    height: 600px;
-    background: red;
-    z-index: 2;
-} */
 
 main {
     display: grid;
@@ -147,6 +136,8 @@ a {
     display: block;
     color: #3E6056;
     font-size: 30px;
+    font-weight: 900;
+   text-shadow: 1px 1px #3E6056;
 }
 
 .it__language:nth-child(3) {
