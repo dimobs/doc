@@ -137,7 +137,7 @@ a {
     color: #3E6056;
     font-size: 30px;
     font-weight: 900;
-   text-shadow: 1px 1px #3E6056;
+   text-shadow: 0.1px 0px #ffffff;
 }
 
 .it__language:nth-child(3) {
@@ -292,10 +292,41 @@ h2 {
 }
 
 .fa-recycle {
+    /* position: relative; */
     scrollbar-width: none;
 }
 
 .certificates:hover {
     font-weight: 900;
     text-decoration:underline;
+}
+
+.stamp-info {
+    position: relative;
+}
+
+.stamp-container {
+    position: absolute;
+    /* box-sizing: border-box; */
+    overflow: hidden;
+    /* border: 3px solid black; */
+    width:132px;
+    height: 132px;
+    outline: none;
+    /* background: hsl(203.88deg 85.83% 52.94%); */
+    background: transparent;
+  right: 10px;
+  top: 110px;
+  opacity: 0.8;
+/* display: flex; */
+/* align-items: center; */
+/* justify-content: center; */
+transition: 2s;
+box-shadow: #f8f9fa;
+}
+
+#lastUpdated {
+    font-weight: 900;
+    color: green;
+    /* font-size: 14px; */
 }
