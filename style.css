@@ -36,7 +36,7 @@ img {
     max-width: 20%;
     border-radius: 50%;
     /* box-shadow: 15px 0 0 0 #c6c3c3; */
-    box-shadow: 3px 5px 5px 5px #3E6056;
+    box-shadow: 1px 1px 10px 5px #3E6056;
     /* -webkit-box-reflect: left 0 linear-gradient(to right, #0000, #0009) */
 }
 
