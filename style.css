@@ -8,8 +8,7 @@
 --links: #449399
 }
 * {
-    overflow-x: hidden;
-
+    /* overflow-x: hidden; */
 }
 body {
     /* font-family: 'Arial', sans-serif; */
@@ -31,6 +30,8 @@ header {
     inset 5px 5px 20px rgba(239, 234, 234, 0.2),
     inset -5px -5px 15px rgba(0, 0, 0, 0.75);
 }
+
+
 
 img {
     max-width: 20%;
@@ -137,7 +138,7 @@ a {
     color: #3E6056;
     font-size: 30px;
     font-weight: 900;
-   text-shadow: 0.1px 0px #ffffff;
+   text-shadow: 0.1px 0px #0deeaa;
 }
 
 .it__language:nth-child(3) {
@@ -146,6 +147,8 @@ a {
 
 h1 {
     display: block;
+    text-shadow: #3E6056;
+    text-shadow: 2px 2px 1px #3E6056;
 }
 
 @media print {
