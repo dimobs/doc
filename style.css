@@ -137,8 +137,15 @@ a {
     display: block;
     color: #3E6056;
     font-size: 30px;
-    font-weight: 900;
-   text-shadow: 0.1px 0px #0deeaa;
+    /* font-weight: 900; */
+   /* text-shadow: 0.1px 0px #0deeaa; */
+   /* font-family:"Some Custom Font", serif;
+   text-shadow:0 0 5px white; */
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   -moz-text-fill-color: transparent;
+   background-image: linear-gradient(to right, #fff 0, #3E6056 100%);
+
 }
 
 .it__language:nth-child(3) {
@@ -325,11 +332,11 @@ h2 {
 /* align-items: center; */
 /* justify-content: center; */
 transition: 2s;
-box-shadow: #f8f9fa;
+/* box-shadow: #f8f9fa; */
 }
 
-#lastUpdated {
+/* #lastUpdated {
     font-weight: 900;
     color: green;
-    /* font-size: 14px; */
-}
+     font-size: 14px; 
+}*/
