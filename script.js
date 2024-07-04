@@ -16,7 +16,7 @@ function lastUpdated() {
     
     // Създаване на низ, представляващ българския формат за дата
     var formattedDate = day + '.' + month + '.' + year;
-    lastDate.innerHTML = `${formattedDate}`
+    lastDate.textContent = `${formattedDate}`
 }
 
     lastUpdated();
