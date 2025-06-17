@@ -119,6 +119,10 @@ a {
     font-size: smaller;
 }
 
+p{
+    display: inline-flex;
+}
+
 .achievement {
     color: #3E6056;
 }
