@@ -31,14 +31,10 @@ header {
     inset -5px -5px 15px rgba(0, 0, 0, 0.75);
 }
 
-
-
 img {
     max-width: 20%;
     border-radius: 50%;
-    /* box-shadow: 15px 0 0 0 #c6c3c3; */
     box-shadow: 0px 0px 10px 10px #3E6056;
-    /* -webkit-box-reflect: left 0 linear-gradient(to right, #0000, #0009) */
 }
 
 main {
@@ -241,7 +237,7 @@ p {
     margin: 0;
     padding: 0;
     position: relative;
-    top: -20px;
+    top: -15px;
     left: 40px;
 }
 
@@ -258,6 +254,17 @@ h2.about__header {
     display: flex;
     justify-content: center;
     place-items: center;
+    align-items: center;
+}
+
+.reactIcon {
+    width: 8%;
+box-shadow: none;
+    margin: 0.5rem;
+}
+
+section li {
+    display: flex;
     align-items: center;
 }
 
@@ -293,7 +300,7 @@ h2 {
      /* position: relative; */
      padding: 0px;
      margin: 0;
-     margin: 7px 10px;
+     /* margin: 7px 10px; */
 }
 
 .save {
@@ -304,6 +311,8 @@ h2 {
 .fa-recycle {
     /* position: relative; */
     scrollbar-width: none;
+    margin: 0;
+    padding-left: 5px;
 }
 
 .certificates:hover {
